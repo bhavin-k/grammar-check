@@ -1,0 +1,92 @@
+/* General Container */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f7fb;
+    padding: 0 10%; /* Ensure equal margin on both sides */
+}
+
+.auth-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Set a max width for the box */
+    text-align: center;
+    margin: auto; /* Center the box */
+}
+
+.auth-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.auth-input {
+    width: -webkit-fill-available;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    transition: border 0.3s ease-in-out;
+}
+
+.auth-input:focus {
+    border: 1px solid #0056b3;
+    outline: none;
+}
+
+.password-group {
+    position: relative;
+}
+
+.show-password-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #0056b3;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.auth-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-btn:hover {
+    background-color: #004085;
+}
+
+.auth-footer {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+}
+
+.auth-link {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.auth-link:hover {
+    text-decoration: underline;
+}
